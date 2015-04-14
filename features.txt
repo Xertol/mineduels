@@ -20,24 +20,26 @@ Player Commands -
 	- I click the kit I want and it it added to my account.
 	- ability to buy two kits at once, or once first kit is bought ask whether they want to return to spawn, or buy another kit?
 
-/ask - Command used to send any online staff memeber a message.
+/ask [question] - Command used to send any online staff memeber a message.
 	- example: I am struggling to buy a kit.
 	- /ask how to buy a kit?
 	- all online staff notified of question, they can then proceed to /msg the player who needs help.
 	- only for use once per minute.
 
-/report - Command used to send a report of a cheater to staff members.
+/report [player name] [reason] - Command used to send a report of a cheater to staff members.
 	- example: I see FinBJ hacking. I commence to ues the command: /report FinBJ Forcefield and flying
 	- all staff notified of report.
 	- Only to be used once every 30 seconds.
 
 Staff Commands -
 
-/ban - Removes player from server, and does not allow user to rejoin until unbanned.
+/ban [player name] - Removes player from server, and does not allow user to rejoin until unbanned.
 	- /ban FinBJ - users UUID is banned, and user cannot rejoin until they have been removed from the list of banned players.
 
-/unban /pardon - Removes a previous ban from a users account allowing them to enjoy the server once again.
+/unban [player name] /pardon [player name] - Removes a previous ban from a users account allowing them to enjoy the server once again.
 	- /unban FinBJ - users name is removed from list of banned users and is once again allowed to come join the fun!
 
-/kick - Removes player from server, although user is free to join the server instantly.
+/kick [player name] - Removes player from server, although user is free to join the server instantly.
 	- /kick FinBJ - user is removed from server, is not banned so can join whenever he feels comfortable.
+
+/invis [player name] -
