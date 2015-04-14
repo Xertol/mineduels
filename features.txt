@@ -1,6 +1,6 @@
 Commands
 
-/duel [player name] - sends message to [player name] and to start the 1v1 the invited player must also type /duel [initial player]
+/duel [player name] - sends message to [player name] and to start the 1v1 the invited player must also type /duel [initial player] - only for use with spawn protection
 	- example: I log on, see you are on server. /duel FinBJ - Your chat - unadaptable invited you to a duel! type /duel unadaptable to fight him!
 	- if both users have initiated /1v1 command, arena spawns. GUI loads for both users allowing them to choose a kit which they own for the duel.
 	- fight begins after countdown.
@@ -12,3 +12,10 @@ Commands
         - User mines for allotted time - what they mined is evaluated and if they recievea anything it is credited into their account.
         - If user wins kit, a GUI loads allowing them to choose a kit to add to their account that they do not currently own.
         - Player returned to spawn area.
+
+/buy - Command used to load GUI where user can buy a kit with coins on their account - only for use with spawn protection
+	- GUI is split in two halves - owned kits and unowned kits.
+	- If an unowned kit is clicked and the player has the appropriate amount of coins in their account, the kit will be credited, and ready to use in PVP or in duels.
+	- example: I have bought 500 coins on the website - want to buy a kit. hop onto server use /buy and the GUI loads.
+	- I click the kit I want and it it added to my account.
+	- ability to buy two kits at once, or once first kit is bought ask whether they want to return to spawn, or buy another kit?
