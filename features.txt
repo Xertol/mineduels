@@ -1,4 +1,4 @@
-Commands
+Player Commands -
 
 /duel [player name] - sends message to [player name] and to start the 1v1 the invited player must also type /duel [initial player] - only for use with spawn protection
 	- example: I log on, see you are on server. /duel FinBJ - Your chat - unadaptable invited you to a duel! type /duel unadaptable to fight him!
@@ -30,3 +30,14 @@ Commands
 	- example: I see FinBJ hacking. I commence to ues the command: /report FinBJ Forcefield and flying
 	- all staff notified of report.
 	- Only to be used once every 30 seconds.
+
+Staff Commands -
+
+/ban - Removes player from server, and does not allow user to rejoin until unbanned.
+	- /ban FinBJ - users UUID is banned, and user cannot rejoin until they have been removed from the list of banned players.
+
+/unban /pardon - Removes a previous ban from a users account allowing them to enjoy the server once again.
+	- /unban FinBJ - users name is removed from list of banned users and is once again allowed to come join the fun!
+
+/kick - Removes player from server, although user is free to join the server instantly.
+	- /kick FinBJ - user is removed from server, is not banned so can join whenever he feels comfortable.
