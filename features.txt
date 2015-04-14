@@ -1,0 +1,14 @@
+Commands
+
+/duel [player name] - sends message to [player name] and to start the 1v1 the invited player must also type /duel [initial player]
+	- example: I log on, see you are on server. /duel FinBJ - Your chat - unadaptable invited you to a duel! type /duel unadaptable to fight him!
+	- if both users have initiated /1v1 command, arena spawns. GUI loads for both users allowing them to choose a kit which they own for the duel.
+	- fight begins after countdown.
+        - both players return to spawn, winner recieves points.
+
+/mine - Command can only be used if player has spawn protection - loads GUI with choice of caves. Shows price of cave, and chance on hover.
+	- example: /mine - GUI loads I choose cave I would like to mine in.
+	- Cave is generated algorithm is loaded.
+        - User mines for allotted time - what they mined is evaluated and if they recievea anything it is credited into their account.
+        - If user wins kit, a GUI loads allowing them to choose a kit to add to their account that they do not currently own.
+        - Player returned to spawn area.
