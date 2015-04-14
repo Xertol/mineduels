@@ -42,4 +42,16 @@ Staff Commands -
 /kick [player name] - Removes player from server, although user is free to join the server instantly.
 	- /kick FinBJ - user is removed from server, is not banned so can join whenever he feels comfortable.
 
-/invis [player name] -
+/invis [player name] - Makes the staff member invisible to all other players meaning that they can watch players and appear offline if not free to answer questions.
+	- /invis FinBJ - FinBJ's name removed from tab. Cannot be /msg'ed. Cannot be seen by any player, only other staff (will be transparent to other staff to let them know they are invis)
+
+/announce [message] - A message is announced in chat, not from a particular user, just broadcasted anonomously.
+	- FinBJ runs command /announce The server is currently lagging due to a DDoS attack, hold tight! - This is broadcast without FinBJ's name being shown to users.
+
+/mute [time] - The chat is muted. If no time parameter is set, the chat remains muted until /mute is run again. 
+	- If /mute is run by another staff member it will not unmute the chat incase two staff run the command at the same time. If another member of staff types /mute override the chat will be unmuted, ignoring the time parameter set by any other staff member.
+
+/slowchat [time between messages] - The chat is slowed for users apart from staff.
+	- They can only talk every [time between messages] specified in command.
+	- if no time is specified default is 5.
+	- /slowchat with no parameters returns current slowchat configuration, and if staff member wants to stop the slowchat in operation, they run /slowchat stop.
